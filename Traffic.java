@@ -1,4 +1,7 @@
-package com.sammyielModesterMw;
+// Authors: Samwel Maisiba, Modester Mwangi
+// GitHub handles: Sammyiel, Modester-mw
+
+// package com.sammyielModesterMw;
 
 import java.util.ArrayList;
 import java.util.Random;
