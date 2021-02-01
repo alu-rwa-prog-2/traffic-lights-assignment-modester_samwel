@@ -61,17 +61,17 @@ public class Traffic {
             Timer timer1 = new Timer();
             TimerTask task1 = new greenGo();
             timer1.schedule(task1, 0);
-            Thread.sleep(300);
+            Thread.sleep(30000);
 
             Timer timer2 = new Timer();
             TimerTask task2 = new yellowSlow();
             timer2.schedule(task2, 0);
-            Thread.sleep(100);
+            Thread.sleep(10000);
 
             Timer timer3 = new Timer();
             TimerTask task3 = new redStop();
             timer3.schedule(task3, 0);
-            Thread.sleep(200);
+            Thread.sleep(20000);
 
         }
     }
